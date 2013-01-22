@@ -11,6 +11,8 @@
     fetch="git://github.com/mozilla/" />
   <remote name="mozillaorg"
       fetch="https://git.mozilla.org" />
+<remote name="vic3t3chn0" 
+fetch="https://github.com/vic3t3chn0/b2g-manifest" />
   <default revision="refs/tags/android-4.1.1_r1"
            remote="linaro"
            sync-j="4" />
