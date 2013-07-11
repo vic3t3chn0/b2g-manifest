@@ -13,7 +13,7 @@
       fetch="https://git.mozilla.org" />
 <remote name="vic3t3chn0" 
 fetch="https://github.com/vic3t3chn0/b2g-manifest" />
-  <default revision="refs/tags/android-4.1.1_r1"
+  <default revision="refs/tags/ics"
            remote="linaro"
            sync-j="4" />
 
@@ -97,12 +97,12 @@ fetch="https://github.com/vic3t3chn0/b2g-manifest" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
 
-  <!-- Galaxy S things -->
-  <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="jellybean" />
-  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="jellybean" />
-	<project name="Rebell/android_device_samsung_wave" path="device/samsung/wave" remote="github" revision="jellybean" />
-	<project name="Rebell/android_vendor_samsung_wave" path="vendor/samsung/wave" remote="github" revision="jellybean" />
-	<project name="Rebell/android_kernel_samsung_wave" path="kernel/samsung/wave" remote="github" revision="jellybean" />
-	<project name="KB-JetDroid/bada-modemril" path="external/bada-modemril" remote="github" revision="jellybean" />
+  <!-- Galaxy wave things -->
+  <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="ics" />
+  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="ics" />
+	<project name="Rebell/android_device_samsung_wave" path="device/samsung/wave" remote="github" revision="ics" />
+	<project name="Rebell/android_vendor_samsung_wave" path="vendor/samsung/wave" remote="github" revision="ics" />
+	<project name="Rebell/android_kernel_samsung_wave" path="kernel/samsung/wave" remote="github" revision="ics" />
+	<project name="KB-JetDroid/bada-modemril" path="external/bada-modemril" remote="github" revision="ics" />
 
 </manifest>
