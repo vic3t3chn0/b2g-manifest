@@ -15,13 +15,13 @@
            remote="linaro"
            sync-j="4" />
 <remote  name="github" fetch="git://github.com/" />
-  <project remote="github" revision="ics-aml" name="christiantroy/android_device_907" path="device/softwinner/907" />
-  <project remote="github" revision="ics-aml" name="christiantroy/android_hardware_realtek" path="hardware/realtek" />
-  <project remote="github" revision="ics-aml" name="christiantroy/android_hardware_libhardware" path="hardware/libhardware" />
-  <project remote="github" revision="ics-aml" name="christiantroy/android_frameworks_av" path="frameworks/av" />
-  <project remote="github" revision="ics-aml" name="christiantroy/android_frameworks_native" path="frameworks/native" />
+  <project remote="github" revision="ics" name="christiantroy/android_device_907" path="device/softwinner/907" />
+  <project remote="github" revision="master" name="christiantroy/android_hardware_realtek" path="hardware/realtek" />
+  <project remote="github" revision="ics" name="christiantroy/android_hardware_libhardware" path="hardware/libhardware" />
+  <project remote="github" revision="jellybean-aml" name="christiantroy/android_frameworks_av" path="frameworks/av" />
+  <project remote="github" revision="jellybean-cm" name="christiantroy/android_frameworks_native" path="frameworks/native" />
   <project remote="github" revision="ics-aml" name="christiantroy/android_frameworks_base" path="frameworks/base" />
-  <project remote="github" revision="ics-aml" name="christiantroy/android_system_core" path="system/core" />
+  <project remote="github" revision="ics" name="christiantroy/android_system_core" path="system/core" />
   <project remote="github" revision="ics-aml" name="christiantroy/android_system_vold" path="system/vold" />
   <project remote="github" revision="ics-aml" name="christiantroy/android_system_bluetooth" path="system/bluetooth" />
 
