@@ -104,4 +104,3 @@
   <project path="vendor/samsung" name="Androguide/android_vendor_samsung" remote="github" revision="master" />
   <project path="hardware/samsung" name="Ubuntu-i9100/android_hardware_samsung" remote="github" revision="phablet-10.1"/>
 </manifest>
-</manifest>
