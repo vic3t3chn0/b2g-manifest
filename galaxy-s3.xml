@@ -96,7 +96,7 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
 
-  <!-- Galaxy S2 things -->
+  <!-- Galaxy S2 and S3 things -->
   <project path="device/samsung/galaxys2" name="android-device-galaxys2" remote="b2g" revision="master" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="device/samsung/i9300" name="Androguide/android_device_samsung_i9300" remote="github" revision="master"/>
